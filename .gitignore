@@ -1,0 +1,18 @@
+# Build output
+out/
+src/Makefile
+src/*_m.cc
+src/*_m.h
+src/mpi_bcast_fattree
+src/mpi_bcast_fattree_dbg
+src/*.o
+
+# Simulation output (regenerate with scripts/run_all.sh)
+simulations/results/
+*.vec
+*.vci
+*.elog
+
+# IDE
+.settings/
+simulations/.qtenvrc
